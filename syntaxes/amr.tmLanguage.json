@@ -1,0 +1,42 @@
+{
+  "name": "Abstract Meaning Representation (AMR)",
+  "scopeName": "source.amr",
+  "patterns": [
+    {
+      "name": "comment.line.number-sign.amr",
+      "match": "\\#.*$"
+    },
+    {
+      "name": "string.quoted.double.amr",
+      "match": "\"[^\"\\\\]*(?:\\\\.[^\"\\\\]*)*\""
+    },
+    {
+      "name": "constant.numeric.alignment.amr",
+      "match": "~(?:[a-z]\\.?)?[0-9]+(?:,[0-9]+)*"
+    },
+    {
+      "name": "keyword.operator.role.amr",
+      "match": ":[^ \\t\\r\\n\\v\\f()\\/:~]*"
+    },
+    {
+      "name": "variable.other.symbol.amr",
+      "match": "[^ \\t\\r\\n\\v\\f()\\/:~]+"
+    },
+    {
+      "name": "punctuation.parenthesis.open.amr",
+      "match": "\\("
+    },
+    {
+      "name": "punctuation.parenthesis.close.amr",
+      "match": "\\)"
+    },
+    {
+      "name": "keyword.operator.slash.amr",
+      "match": "\\/"
+    },
+    {
+      "name": "invalid.illegal.unexpected.amr",
+      "match": "[^ \\t\\r\\n\\v\\f]"
+    }
+  ]
+}
