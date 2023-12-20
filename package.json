@@ -12,6 +12,7 @@
     "url": "https://github.com/chanind/amr-vscode/issues"
   },
   "license": "MIT",
+  "icon": "icon.png",
   "keywords": [
     "amr",
     "abstract meaning representation"
