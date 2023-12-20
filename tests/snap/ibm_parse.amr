@@ -1,0 +1,12 @@
+    # ::tok It 's reasonable for someone to call themselves an American if they 're from an American country .
+    (r / reasonable-02~2
+        :ARG1 (c / call-01~6
+            :ARG0 (s / someone~4)
+            :ARG1 s
+            :ARG2 (p / person~7
+                :mod (c2 / country~9
+                    :name (n / name~9
+                        :op1 "America"~10))))
+        :condition (b / be-from-91~15
+            :ARG1 s
+            :ARG2 c2))

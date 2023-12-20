@@ -1,0 +1,681 @@
+># AMR release; corpus: mt09sdl; section: training; number of AMRs: 204 (generated on Thu Jan 25, 2018 at 16:14:26)
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr comment.line.number-sign.amr
+>
+># ::id sdl_0002.1 ::date 2013-07-02T03:00:13 ::annotator SDL-AMR-09 ::preferred
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr comment.line.number-sign.amr
+># ::snt Rockström said that when rich countries increase their consumption , they also accelerate the exploitation of the world 's national resources , with the result that they emit more greenhouse gases .
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr comment.line.number-sign.amr
+># ::save-date Thu Jul 11, 2013 ::file sdl_0002_1.txt
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr comment.line.number-sign.amr
+>(s / say-01
+#^ source.amr punctuation.parenthesis.open.amr
+# ^ source.amr variable.other.symbol.amr
+#  ^ source.amr
+#   ^ source.amr keyword.operator.slash.amr
+#    ^ source.amr
+#     ^^^^^^ source.amr variable.other.symbol.amr
+>      :ARG0 (p / person :wiki "Johan_Rockström"
+#^^^^^^ source.amr
+#      ^^^^^ source.amr keyword.operator.role.amr
+#           ^ source.amr
+#            ^ source.amr punctuation.parenthesis.open.amr
+#             ^ source.amr variable.other.symbol.amr
+#              ^ source.amr
+#               ^ source.amr keyword.operator.slash.amr
+#                ^ source.amr
+#                 ^^^^^^ source.amr variable.other.symbol.amr
+#                       ^ source.amr
+#                        ^^^^^ source.amr keyword.operator.role.amr
+#                             ^ source.amr
+#                              ^^^^^^^^^^^^^^^^^ source.amr string.quoted.double.amr
+>            :name (n / name :op1 "Rockström"))
+#^^^^^^^^^^^^ source.amr
+#            ^^^^^ source.amr keyword.operator.role.amr
+#                 ^ source.amr
+#                  ^ source.amr punctuation.parenthesis.open.amr
+#                   ^ source.amr variable.other.symbol.amr
+#                    ^ source.amr
+#                     ^ source.amr keyword.operator.slash.amr
+#                      ^ source.amr
+#                       ^^^^ source.amr variable.other.symbol.amr
+#                           ^ source.amr
+#                            ^^^^ source.amr keyword.operator.role.amr
+#                                ^ source.amr
+#                                 ^^^^^^^^^^^ source.amr string.quoted.double.amr
+#                                            ^ source.amr punctuation.parenthesis.close.amr
+#                                             ^ source.amr punctuation.parenthesis.close.amr
+>      :ARG1 (a / accelerate-01
+#^^^^^^ source.amr
+#      ^^^^^ source.amr keyword.operator.role.amr
+#           ^ source.amr
+#            ^ source.amr punctuation.parenthesis.open.amr
+#             ^ source.amr variable.other.symbol.amr
+#              ^ source.amr
+#               ^ source.amr keyword.operator.slash.amr
+#                ^ source.amr
+#                 ^^^^^^^^^^^^^ source.amr variable.other.symbol.amr
+>            :ARG0 (c / country
+#^^^^^^^^^^^^ source.amr
+#            ^^^^^ source.amr keyword.operator.role.amr
+#                 ^ source.amr
+#                  ^ source.amr punctuation.parenthesis.open.amr
+#                   ^ source.amr variable.other.symbol.amr
+#                    ^ source.amr
+#                     ^ source.amr keyword.operator.slash.amr
+#                      ^ source.amr
+#                       ^^^^^^^ source.amr variable.other.symbol.amr
+>                  :mod (r / rich))
+#^^^^^^^^^^^^^^^^^^ source.amr
+#                  ^^^^ source.amr keyword.operator.role.amr
+#                      ^ source.amr
+#                       ^ source.amr punctuation.parenthesis.open.amr
+#                        ^ source.amr variable.other.symbol.amr
+#                         ^ source.amr
+#                          ^ source.amr keyword.operator.slash.amr
+#                           ^ source.amr
+#                            ^^^^ source.amr variable.other.symbol.amr
+#                                ^ source.amr punctuation.parenthesis.close.amr
+#                                 ^ source.amr punctuation.parenthesis.close.amr
+>            :ARG1 (e / exploit-01
+#^^^^^^^^^^^^ source.amr
+#            ^^^^^ source.amr keyword.operator.role.amr
+#                 ^ source.amr
+#                  ^ source.amr punctuation.parenthesis.open.amr
+#                   ^ source.amr variable.other.symbol.amr
+#                    ^ source.amr
+#                     ^ source.amr keyword.operator.slash.amr
+#                      ^ source.amr
+#                       ^^^^^^^^^^ source.amr variable.other.symbol.amr
+>                  :ARG0 c
+#^^^^^^^^^^^^^^^^^^ source.amr
+#                  ^^^^^ source.amr keyword.operator.role.amr
+#                       ^ source.amr
+#                        ^ source.amr variable.other.symbol.amr
+>                  :ARG1 (r2 / resource
+#^^^^^^^^^^^^^^^^^^ source.amr
+#                  ^^^^^ source.amr keyword.operator.role.amr
+#                       ^ source.amr
+#                        ^ source.amr punctuation.parenthesis.open.amr
+#                         ^^ source.amr variable.other.symbol.amr
+#                           ^ source.amr
+#                            ^ source.amr keyword.operator.slash.amr
+#                             ^ source.amr
+#                              ^^^^^^^^ source.amr variable.other.symbol.amr
+>                        :mod (n2 / nation)
+#^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                        ^^^^ source.amr keyword.operator.role.amr
+#                            ^ source.amr
+#                             ^ source.amr punctuation.parenthesis.open.amr
+#                              ^^ source.amr variable.other.symbol.amr
+#                                ^ source.amr
+#                                 ^ source.amr keyword.operator.slash.amr
+#                                  ^ source.amr
+#                                   ^^^^^^ source.amr variable.other.symbol.amr
+#                                         ^ source.amr punctuation.parenthesis.close.amr
+>                        :poss (w / world)))
+#^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                        ^^^^^ source.amr keyword.operator.role.amr
+#                             ^ source.amr
+#                              ^ source.amr punctuation.parenthesis.open.amr
+#                               ^ source.amr variable.other.symbol.amr
+#                                ^ source.amr
+#                                 ^ source.amr keyword.operator.slash.amr
+#                                  ^ source.amr
+#                                   ^^^^^ source.amr variable.other.symbol.amr
+#                                        ^ source.amr punctuation.parenthesis.close.amr
+#                                         ^ source.amr punctuation.parenthesis.close.amr
+#                                          ^ source.amr punctuation.parenthesis.close.amr
+>            :mod (a2 / also)
+#^^^^^^^^^^^^ source.amr
+#            ^^^^ source.amr keyword.operator.role.amr
+#                ^ source.amr
+#                 ^ source.amr punctuation.parenthesis.open.amr
+#                  ^^ source.amr variable.other.symbol.amr
+#                    ^ source.amr
+#                     ^ source.amr keyword.operator.slash.amr
+#                      ^ source.amr
+#                       ^^^^ source.amr variable.other.symbol.amr
+#                           ^ source.amr punctuation.parenthesis.close.amr
+>            :time (i / increase-01
+#^^^^^^^^^^^^ source.amr
+#            ^^^^^ source.amr keyword.operator.role.amr
+#                 ^ source.amr
+#                  ^ source.amr punctuation.parenthesis.open.amr
+#                   ^ source.amr variable.other.symbol.amr
+#                    ^ source.amr
+#                     ^ source.amr keyword.operator.slash.amr
+#                      ^ source.amr
+#                       ^^^^^^^^^^^ source.amr variable.other.symbol.amr
+>                  :ARG0 c
+#^^^^^^^^^^^^^^^^^^ source.amr
+#                  ^^^^^ source.amr keyword.operator.role.amr
+#                       ^ source.amr
+#                        ^ source.amr variable.other.symbol.amr
+>                  :ARG1 (c2 / consume-01
+#^^^^^^^^^^^^^^^^^^ source.amr
+#                  ^^^^^ source.amr keyword.operator.role.amr
+#                       ^ source.amr
+#                        ^ source.amr punctuation.parenthesis.open.amr
+#                         ^^ source.amr variable.other.symbol.amr
+#                           ^ source.amr
+#                            ^ source.amr keyword.operator.slash.amr
+#                             ^ source.amr
+#                              ^^^^^^^^^^ source.amr variable.other.symbol.amr
+>                        :ARG0 c))
+#^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                        ^^^^^ source.amr keyword.operator.role.amr
+#                             ^ source.amr
+#                              ^ source.amr variable.other.symbol.amr
+#                               ^ source.amr punctuation.parenthesis.close.amr
+#                                ^ source.amr punctuation.parenthesis.close.amr
+>            :ARG0-of (c3 / cause-01
+#^^^^^^^^^^^^ source.amr
+#            ^^^^^^^^ source.amr keyword.operator.role.amr
+#                    ^ source.amr
+#                     ^ source.amr punctuation.parenthesis.open.amr
+#                      ^^ source.amr variable.other.symbol.amr
+#                        ^ source.amr
+#                         ^ source.amr keyword.operator.slash.amr
+#                          ^ source.amr
+#                           ^^^^^^^^ source.amr variable.other.symbol.amr
+>                  :ARG1 (e2 / emit-01
+#^^^^^^^^^^^^^^^^^^ source.amr
+#                  ^^^^^ source.amr keyword.operator.role.amr
+#                       ^ source.amr
+#                        ^ source.amr punctuation.parenthesis.open.amr
+#                         ^^ source.amr variable.other.symbol.amr
+#                           ^ source.amr
+#                            ^ source.amr keyword.operator.slash.amr
+#                             ^ source.amr
+#                              ^^^^^^^ source.amr variable.other.symbol.amr
+>                        :ARG0 c
+#^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                        ^^^^^ source.amr keyword.operator.role.amr
+#                             ^ source.amr
+#                              ^ source.amr variable.other.symbol.amr
+>                        :ARG1 (g / gas
+#^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                        ^^^^^ source.amr keyword.operator.role.amr
+#                             ^ source.amr
+#                              ^ source.amr punctuation.parenthesis.open.amr
+#                               ^ source.amr variable.other.symbol.amr
+#                                ^ source.amr
+#                                 ^ source.amr keyword.operator.slash.amr
+#                                  ^ source.amr
+#                                   ^^^ source.amr variable.other.symbol.amr
+>                              :mod (g2 / greenhouse)
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                              ^^^^ source.amr keyword.operator.role.amr
+#                                  ^ source.amr
+#                                   ^ source.amr punctuation.parenthesis.open.amr
+#                                    ^^ source.amr variable.other.symbol.amr
+#                                      ^ source.amr
+#                                       ^ source.amr keyword.operator.slash.amr
+#                                        ^ source.amr
+#                                         ^^^^^^^^^^ source.amr variable.other.symbol.amr
+#                                                   ^ source.amr punctuation.parenthesis.close.amr
+>                              :mod (m / more))))))
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                              ^^^^ source.amr keyword.operator.role.amr
+#                                  ^ source.amr
+#                                   ^ source.amr punctuation.parenthesis.open.amr
+#                                    ^ source.amr variable.other.symbol.amr
+#                                     ^ source.amr
+#                                      ^ source.amr keyword.operator.slash.amr
+#                                       ^ source.amr
+#                                        ^^^^ source.amr variable.other.symbol.amr
+#                                            ^ source.amr punctuation.parenthesis.close.amr
+#                                             ^ source.amr punctuation.parenthesis.close.amr
+#                                              ^ source.amr punctuation.parenthesis.close.amr
+#                                               ^ source.amr punctuation.parenthesis.close.amr
+#                                                ^ source.amr punctuation.parenthesis.close.amr
+#                                                 ^ source.amr punctuation.parenthesis.close.amr
+>
+># ::id sdl_0002.2 ::date 2013-07-04T02:23:45 ::annotator SDL-AMR-09 ::preferred
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr comment.line.number-sign.amr
+># ::snt This will ultimately accelerate the speed of desertification in sub - Saharan African countries and other areas of the world .
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr comment.line.number-sign.amr
+># ::save-date Wed Feb 10, 2016 ::file sdl_0002_2.txt
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr comment.line.number-sign.amr
+>(a / accelerate-01
+#^ source.amr punctuation.parenthesis.open.amr
+# ^ source.amr variable.other.symbol.amr
+#  ^ source.amr
+#   ^ source.amr keyword.operator.slash.amr
+#    ^ source.amr
+#     ^^^^^^^^^^^^^ source.amr variable.other.symbol.amr
+>      :ARG0 (t / this)
+#^^^^^^ source.amr
+#      ^^^^^ source.amr keyword.operator.role.amr
+#           ^ source.amr
+#            ^ source.amr punctuation.parenthesis.open.amr
+#             ^ source.amr variable.other.symbol.amr
+#              ^ source.amr
+#               ^ source.amr keyword.operator.slash.amr
+#                ^ source.amr
+#                 ^^^^ source.amr variable.other.symbol.amr
+#                     ^ source.amr punctuation.parenthesis.close.amr
+>      :ARG1 (s / speed-01
+#^^^^^^ source.amr
+#      ^^^^^ source.amr keyword.operator.role.amr
+#           ^ source.amr
+#            ^ source.amr punctuation.parenthesis.open.amr
+#             ^ source.amr variable.other.symbol.amr
+#              ^ source.amr
+#               ^ source.amr keyword.operator.slash.amr
+#                ^ source.amr
+#                 ^^^^^^^^ source.amr variable.other.symbol.amr
+>            :ARG0 t
+#^^^^^^^^^^^^ source.amr
+#            ^^^^^ source.amr keyword.operator.role.amr
+#                 ^ source.amr
+#                  ^ source.amr variable.other.symbol.amr
+>            :ARG1 (d / desertification
+#^^^^^^^^^^^^ source.amr
+#            ^^^^^ source.amr keyword.operator.role.amr
+#                 ^ source.amr
+#                  ^ source.amr punctuation.parenthesis.open.amr
+#                   ^ source.amr variable.other.symbol.amr
+#                    ^ source.amr
+#                     ^ source.amr keyword.operator.slash.amr
+#                      ^ source.amr
+#                       ^^^^^^^^^^^^^^^ source.amr variable.other.symbol.amr
+>                  :location (a2 / and
+#^^^^^^^^^^^^^^^^^^ source.amr
+#                  ^^^^^^^^^ source.amr keyword.operator.role.amr
+#                           ^ source.amr
+#                            ^ source.amr punctuation.parenthesis.open.amr
+#                             ^^ source.amr variable.other.symbol.amr
+#                               ^ source.amr
+#                                ^ source.amr keyword.operator.slash.amr
+#                                 ^ source.amr
+#                                  ^^^ source.amr variable.other.symbol.amr
+>                        :op1 (c / country
+#^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                        ^^^^ source.amr keyword.operator.role.amr
+#                            ^ source.amr
+#                             ^ source.amr punctuation.parenthesis.open.amr
+#                              ^ source.amr variable.other.symbol.amr
+#                               ^ source.amr
+#                                ^ source.amr keyword.operator.slash.amr
+#                                 ^ source.amr
+#                                  ^^^^^^^ source.amr variable.other.symbol.amr
+>                              :location (w2 / world-region :wiki "Sub-Saharan_Africa" :name (n / name :op1 "Sub-Saharan" :op2 "Africa")))
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                              ^^^^^^^^^ source.amr keyword.operator.role.amr
+#                                       ^ source.amr
+#                                        ^ source.amr punctuation.parenthesis.open.amr
+#                                         ^^ source.amr variable.other.symbol.amr
+#                                           ^ source.amr
+#                                            ^ source.amr keyword.operator.slash.amr
+#                                             ^ source.amr
+#                                              ^^^^^^^^^^^^ source.amr variable.other.symbol.amr
+#                                                          ^ source.amr
+#                                                           ^^^^^ source.amr keyword.operator.role.amr
+#                                                                ^ source.amr
+#                                                                 ^^^^^^^^^^^^^^^^^^^^ source.amr string.quoted.double.amr
+#                                                                                     ^ source.amr
+#                                                                                      ^^^^^ source.amr keyword.operator.role.amr
+#                                                                                           ^ source.amr
+#                                                                                            ^ source.amr punctuation.parenthesis.open.amr
+#                                                                                             ^ source.amr variable.other.symbol.amr
+#                                                                                              ^ source.amr
+#                                                                                               ^ source.amr keyword.operator.slash.amr
+#                                                                                                ^ source.amr
+#                                                                                                 ^^^^ source.amr variable.other.symbol.amr
+#                                                                                                     ^ source.amr
+#                                                                                                      ^^^^ source.amr keyword.operator.role.amr
+#                                                                                                          ^ source.amr
+#                                                                                                           ^^^^^^^^^^^^^ source.amr string.quoted.double.amr
+#                                                                                                                        ^ source.amr
+#                                                                                                                         ^^^^ source.amr keyword.operator.role.amr
+#                                                                                                                             ^ source.amr
+#                                                                                                                              ^^^^^^^^ source.amr string.quoted.double.amr
+#                                                                                                                                      ^ source.amr punctuation.parenthesis.close.amr
+#                                                                                                                                       ^ source.amr punctuation.parenthesis.close.amr
+#                                                                                                                                        ^ source.amr punctuation.parenthesis.close.amr
+>                        :op2 (a3 / area
+#^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                        ^^^^ source.amr keyword.operator.role.amr
+#                            ^ source.amr
+#                             ^ source.amr punctuation.parenthesis.open.amr
+#                              ^^ source.amr variable.other.symbol.amr
+#                                ^ source.amr
+#                                 ^ source.amr keyword.operator.slash.amr
+#                                  ^ source.amr
+#                                   ^^^^ source.amr variable.other.symbol.amr
+>                              :part-of (w / world)
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                              ^^^^^^^^ source.amr keyword.operator.role.amr
+#                                      ^ source.amr
+#                                       ^ source.amr punctuation.parenthesis.open.amr
+#                                        ^ source.amr variable.other.symbol.amr
+#                                         ^ source.amr
+#                                          ^ source.amr keyword.operator.slash.amr
+#                                           ^ source.amr
+#                                            ^^^^^ source.amr variable.other.symbol.amr
+#                                                 ^ source.amr punctuation.parenthesis.close.amr
+>                              :mod (o / other)))))
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                              ^^^^ source.amr keyword.operator.role.amr
+#                                  ^ source.amr
+#                                   ^ source.amr punctuation.parenthesis.open.amr
+#                                    ^ source.amr variable.other.symbol.amr
+#                                     ^ source.amr
+#                                      ^ source.amr keyword.operator.slash.amr
+#                                       ^ source.amr
+#                                        ^^^^^ source.amr variable.other.symbol.amr
+#                                             ^ source.amr punctuation.parenthesis.close.amr
+#                                              ^ source.amr punctuation.parenthesis.close.amr
+#                                               ^ source.amr punctuation.parenthesis.close.amr
+#                                                ^ source.amr punctuation.parenthesis.close.amr
+#                                                 ^ source.amr punctuation.parenthesis.close.amr
+>      :time (u / ultimate))
+#^^^^^^ source.amr
+#      ^^^^^ source.amr keyword.operator.role.amr
+#           ^ source.amr
+#            ^ source.amr punctuation.parenthesis.open.amr
+#             ^ source.amr variable.other.symbol.amr
+#              ^ source.amr
+#               ^ source.amr keyword.operator.slash.amr
+#                ^ source.amr
+#                 ^^^^^^^^ source.amr variable.other.symbol.amr
+#                         ^ source.amr punctuation.parenthesis.close.amr
+#                          ^ source.amr punctuation.parenthesis.close.amr
+>
+># ::id sdl_0002.3 ::date 2013-07-04T02:52:50 ::annotator SDL-AMR-09 ::preferred
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr comment.line.number-sign.amr
+># ::snt The ice sheet has melted earlier this season .
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr comment.line.number-sign.amr
+># ::save-date Fri Oct 20, 2017 ::file sdl_0002_3.txt
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr comment.line.number-sign.amr
+>(m / melt-01
+#^ source.amr punctuation.parenthesis.open.amr
+# ^ source.amr variable.other.symbol.amr
+#  ^ source.amr
+#   ^ source.amr keyword.operator.slash.amr
+#    ^ source.amr
+#     ^^^^^^^ source.amr variable.other.symbol.amr
+>      :ARG1 (s / sheet
+#^^^^^^ source.amr
+#      ^^^^^ source.amr keyword.operator.role.amr
+#           ^ source.amr
+#            ^ source.amr punctuation.parenthesis.open.amr
+#             ^ source.amr variable.other.symbol.amr
+#              ^ source.amr
+#               ^ source.amr keyword.operator.slash.amr
+#                ^ source.amr
+#                 ^^^^^ source.amr variable.other.symbol.amr
+>            :consist-of (i / ice))
+#^^^^^^^^^^^^ source.amr
+#            ^^^^^^^^^^^ source.amr keyword.operator.role.amr
+#                       ^ source.amr
+#                        ^ source.amr punctuation.parenthesis.open.amr
+#                         ^ source.amr variable.other.symbol.amr
+#                          ^ source.amr
+#                           ^ source.amr keyword.operator.slash.amr
+#                            ^ source.amr
+#                             ^^^ source.amr variable.other.symbol.amr
+#                                ^ source.amr punctuation.parenthesis.close.amr
+#                                 ^ source.amr punctuation.parenthesis.close.amr
+>      :time (b / before)
+#^^^^^^ source.amr
+#      ^^^^^ source.amr keyword.operator.role.amr
+#           ^ source.amr
+#            ^ source.amr punctuation.parenthesis.open.amr
+#             ^ source.amr variable.other.symbol.amr
+#              ^ source.amr
+#               ^ source.amr keyword.operator.slash.amr
+#                ^ source.amr
+#                 ^^^^^^ source.amr variable.other.symbol.amr
+#                       ^ source.amr punctuation.parenthesis.close.amr
+>      :time (s2 / season
+#^^^^^^ source.amr
+#      ^^^^^ source.amr keyword.operator.role.amr
+#           ^ source.amr
+#            ^ source.amr punctuation.parenthesis.open.amr
+#             ^^ source.amr variable.other.symbol.amr
+#               ^ source.amr
+#                ^ source.amr keyword.operator.slash.amr
+#                 ^ source.amr
+#                  ^^^^^^ source.amr variable.other.symbol.amr
+>            :mod (t / this)))
+#^^^^^^^^^^^^ source.amr
+#            ^^^^ source.amr keyword.operator.role.amr
+#                ^ source.amr
+#                 ^ source.amr punctuation.parenthesis.open.amr
+#                  ^ source.amr variable.other.symbol.amr
+#                   ^ source.amr
+#                    ^ source.amr keyword.operator.slash.amr
+#                     ^ source.amr
+#                      ^^^^ source.amr variable.other.symbol.amr
+#                          ^ source.amr punctuation.parenthesis.close.amr
+#                           ^ source.amr punctuation.parenthesis.close.amr
+#                            ^ source.amr punctuation.parenthesis.close.amr
+>
+># ::id sdl_0002.4 ::date 2013-07-08T01:50:45 ::annotator SDL-AMR-09 ::preferred
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr comment.line.number-sign.amr
+># ::snt Consequently , experts have predicted that the world has at least ten years within which to lower the volume of greenhouse gas emissions before it is too late to redeem the situation .
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr comment.line.number-sign.amr
+># ::save-date Mon Dec 11, 2017 ::file sdl_0002_4.txt
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr comment.line.number-sign.amr
+>(c / cause-01
+#^ source.amr punctuation.parenthesis.open.amr
+# ^ source.amr variable.other.symbol.amr
+#  ^ source.amr
+#   ^ source.amr keyword.operator.slash.amr
+#    ^ source.amr
+#     ^^^^^^^^ source.amr variable.other.symbol.amr
+>      :ARG1 (p / predict-01
+#^^^^^^ source.amr
+#      ^^^^^ source.amr keyword.operator.role.amr
+#           ^ source.amr
+#            ^ source.amr punctuation.parenthesis.open.amr
+#             ^ source.amr variable.other.symbol.amr
+#              ^ source.amr
+#               ^ source.amr keyword.operator.slash.amr
+#                ^ source.amr
+#                 ^^^^^^^^^^ source.amr variable.other.symbol.amr
+>            :ARG0 (p2 / person
+#^^^^^^^^^^^^ source.amr
+#            ^^^^^ source.amr keyword.operator.role.amr
+#                 ^ source.amr
+#                  ^ source.amr punctuation.parenthesis.open.amr
+#                   ^^ source.amr variable.other.symbol.amr
+#                     ^ source.amr
+#                      ^ source.amr keyword.operator.slash.amr
+#                       ^ source.amr
+#                        ^^^^^^ source.amr variable.other.symbol.amr
+>                  :ARG1-of (e / expert-01))
+#^^^^^^^^^^^^^^^^^^ source.amr
+#                  ^^^^^^^^ source.amr keyword.operator.role.amr
+#                          ^ source.amr
+#                           ^ source.amr punctuation.parenthesis.open.amr
+#                            ^ source.amr variable.other.symbol.amr
+#                             ^ source.amr
+#                              ^ source.amr keyword.operator.slash.amr
+#                               ^ source.amr
+#                                ^^^^^^^^^ source.amr variable.other.symbol.amr
+#                                         ^ source.amr punctuation.parenthesis.close.amr
+#                                          ^ source.amr punctuation.parenthesis.close.amr
+>            :ARG1 (h / have-03
+#^^^^^^^^^^^^ source.amr
+#            ^^^^^ source.amr keyword.operator.role.amr
+#                 ^ source.amr
+#                  ^ source.amr punctuation.parenthesis.open.amr
+#                   ^ source.amr variable.other.symbol.amr
+#                    ^ source.amr
+#                     ^ source.amr keyword.operator.slash.amr
+#                      ^ source.amr
+#                       ^^^^^^^ source.amr variable.other.symbol.amr
+>                  :ARG0 (w / world)
+#^^^^^^^^^^^^^^^^^^ source.amr
+#                  ^^^^^ source.amr keyword.operator.role.amr
+#                       ^ source.amr
+#                        ^ source.amr punctuation.parenthesis.open.amr
+#                         ^ source.amr variable.other.symbol.amr
+#                          ^ source.amr
+#                           ^ source.amr keyword.operator.slash.amr
+#                            ^ source.amr
+#                             ^^^^^ source.amr variable.other.symbol.amr
+#                                  ^ source.amr punctuation.parenthesis.close.amr
+>                  :ARG1 (y / year
+#^^^^^^^^^^^^^^^^^^ source.amr
+#                  ^^^^^ source.amr keyword.operator.role.amr
+#                       ^ source.amr
+#                        ^ source.amr punctuation.parenthesis.open.amr
+#                         ^ source.amr variable.other.symbol.amr
+#                          ^ source.amr
+#                           ^ source.amr keyword.operator.slash.amr
+#                            ^ source.amr
+#                             ^^^^ source.amr variable.other.symbol.amr
+>                        :quant (a / at-least :op1 10)
+#^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                        ^^^^^^ source.amr keyword.operator.role.amr
+#                              ^ source.amr
+#                               ^ source.amr punctuation.parenthesis.open.amr
+#                                ^ source.amr variable.other.symbol.amr
+#                                 ^ source.amr
+#                                  ^ source.amr keyword.operator.slash.amr
+#                                   ^ source.amr
+#                                    ^^^^^^^^ source.amr variable.other.symbol.amr
+#                                            ^ source.amr
+#                                             ^^^^ source.amr keyword.operator.role.amr
+#                                                 ^ source.amr
+#                                                  ^^ source.amr variable.other.symbol.amr
+#                                                    ^ source.amr punctuation.parenthesis.close.amr
+>                        :purpose (l / lower-05
+#^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                        ^^^^^^^^ source.amr keyword.operator.role.amr
+#                                ^ source.amr
+#                                 ^ source.amr punctuation.parenthesis.open.amr
+#                                  ^ source.amr variable.other.symbol.amr
+#                                   ^ source.amr
+#                                    ^ source.amr keyword.operator.slash.amr
+#                                     ^ source.amr
+#                                      ^^^^^^^^ source.amr variable.other.symbol.amr
+>                              :ARG0 w
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                              ^^^^^ source.amr keyword.operator.role.amr
+#                                   ^ source.amr
+#                                    ^ source.amr variable.other.symbol.amr
+>                              :ARG1 (v / volume
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                              ^^^^^ source.amr keyword.operator.role.amr
+#                                   ^ source.amr
+#                                    ^ source.amr punctuation.parenthesis.open.amr
+#                                     ^ source.amr variable.other.symbol.amr
+#                                      ^ source.amr
+#                                       ^ source.amr keyword.operator.slash.amr
+#                                        ^ source.amr
+#                                         ^^^^^^ source.amr variable.other.symbol.amr
+>                                    :mod (e2 / emit-01
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                                    ^^^^ source.amr keyword.operator.role.amr
+#                                        ^ source.amr
+#                                         ^ source.amr punctuation.parenthesis.open.amr
+#                                          ^^ source.amr variable.other.symbol.amr
+#                                            ^ source.amr
+#                                             ^ source.amr keyword.operator.slash.amr
+#                                              ^ source.amr
+#                                               ^^^^^^^ source.amr variable.other.symbol.amr
+>                                          :ARG0 w
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                                          ^^^^^ source.amr keyword.operator.role.amr
+#                                               ^ source.amr
+#                                                ^ source.amr variable.other.symbol.amr
+>                                          :ARG1 (g / gas
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                                          ^^^^^ source.amr keyword.operator.role.amr
+#                                               ^ source.amr
+#                                                ^ source.amr punctuation.parenthesis.open.amr
+#                                                 ^ source.amr variable.other.symbol.amr
+#                                                  ^ source.amr
+#                                                   ^ source.amr keyword.operator.slash.amr
+#                                                    ^ source.amr
+#                                                     ^^^ source.amr variable.other.symbol.amr
+>                                                :mod (g2 / greenhouse))))
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                                                ^^^^ source.amr keyword.operator.role.amr
+#                                                    ^ source.amr
+#                                                     ^ source.amr punctuation.parenthesis.open.amr
+#                                                      ^^ source.amr variable.other.symbol.amr
+#                                                        ^ source.amr
+#                                                         ^ source.amr keyword.operator.slash.amr
+#                                                          ^ source.amr
+#                                                           ^^^^^^^^^^ source.amr variable.other.symbol.amr
+#                                                                     ^ source.amr punctuation.parenthesis.close.amr
+#                                                                      ^ source.amr punctuation.parenthesis.close.amr
+#                                                                       ^ source.amr punctuation.parenthesis.close.amr
+#                                                                        ^ source.amr punctuation.parenthesis.close.amr
+>                              :time (b / before
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                              ^^^^^ source.amr keyword.operator.role.amr
+#                                   ^ source.amr
+#                                    ^ source.amr punctuation.parenthesis.open.amr
+#                                     ^ source.amr variable.other.symbol.amr
+#                                      ^ source.amr
+#                                       ^ source.amr keyword.operator.slash.amr
+#                                        ^ source.amr
+#                                         ^^^^^^ source.amr variable.other.symbol.amr
+>                                    :op1 (h2 / have-degree-91
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                                    ^^^^ source.amr keyword.operator.role.amr
+#                                        ^ source.amr
+#                                         ^ source.amr punctuation.parenthesis.open.amr
+#                                          ^^ source.amr variable.other.symbol.amr
+#                                            ^ source.amr
+#                                             ^ source.amr keyword.operator.slash.amr
+#                                              ^ source.amr
+#                                               ^^^^^^^^^^^^^^ source.amr variable.other.symbol.amr
+>                                          :ARG2 (l2 / late)
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                                          ^^^^^ source.amr keyword.operator.role.amr
+#                                               ^ source.amr
+#                                                ^ source.amr punctuation.parenthesis.open.amr
+#                                                 ^^ source.amr variable.other.symbol.amr
+#                                                   ^ source.amr
+#                                                    ^ source.amr keyword.operator.slash.amr
+#                                                     ^ source.amr
+#                                                      ^^^^ source.amr variable.other.symbol.amr
+#                                                          ^ source.amr punctuation.parenthesis.close.amr
+>                                          :ARG3 (t / too)
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                                          ^^^^^ source.amr keyword.operator.role.amr
+#                                               ^ source.amr
+#                                                ^ source.amr punctuation.parenthesis.open.amr
+#                                                 ^ source.amr variable.other.symbol.amr
+#                                                  ^ source.amr
+#                                                   ^ source.amr keyword.operator.slash.amr
+#                                                    ^ source.amr
+#                                                     ^^^ source.amr variable.other.symbol.amr
+#                                                        ^ source.amr punctuation.parenthesis.close.amr
+>                                          :ARG6 (r / redeem-01
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                                          ^^^^^ source.amr keyword.operator.role.amr
+#                                               ^ source.amr
+#                                                ^ source.amr punctuation.parenthesis.open.amr
+#                                                 ^ source.amr variable.other.symbol.amr
+#                                                  ^ source.amr
+#                                                   ^ source.amr keyword.operator.slash.amr
+#                                                    ^ source.amr
+#                                                     ^^^^^^^^^ source.amr variable.other.symbol.amr
+>                                                :ARG1 (s / situation)))))))))
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr
+#                                                ^^^^^ source.amr keyword.operator.role.amr
+#                                                     ^ source.amr
+#                                                      ^ source.amr punctuation.parenthesis.open.amr
+#                                                       ^ source.amr variable.other.symbol.amr
+#                                                        ^ source.amr
+#                                                         ^ source.amr keyword.operator.slash.amr
+#                                                          ^ source.amr
+#                                                           ^^^^^^^^^ source.amr variable.other.symbol.amr
+#                                                                    ^ source.amr punctuation.parenthesis.close.amr
+#                                                                     ^ source.amr punctuation.parenthesis.close.amr
+#                                                                      ^ source.amr punctuation.parenthesis.close.amr
+#                                                                       ^ source.amr punctuation.parenthesis.close.amr
+#                                                                        ^ source.amr punctuation.parenthesis.close.amr
+#                                                                         ^ source.amr punctuation.parenthesis.close.amr
+#                                                                          ^ source.amr punctuation.parenthesis.close.amr
+#                                                                           ^ source.amr punctuation.parenthesis.close.amr
+#                                                                            ^ source.amr punctuation.parenthesis.close.amr

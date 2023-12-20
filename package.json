@@ -1,8 +1,11 @@
 {
   "name": "amr",
-  "displayName": "Abstract Meaning Representation (AMR)",
+  "displayName": "AMR",
   "description": "Language support of Abstract Meaning Representation (AMR)",
   "version": "0.0.1",
+  "scripts": {
+    "test": "vscode-tmgrammar-snap tests/snap/**/*.amr"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -10,16 +13,28 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "amr",
-      "aliases": ["Abstract Meaning Representation (AMR)", "amr"],
-      "extensions": [".amr"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "amr",
-      "scopeName": "source.amr",
-      "path": "./syntaxes/amr.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "amr",
+        "aliases": [
+          "Abstract Meaning Representation (AMR)",
+          "amr"
+        ],
+        "extensions": [
+          ".amr"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "amr",
+        "scopeName": "source.amr",
+        "path": "./syntaxes/amr.tmLanguage.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vscode-tmgrammar-test": "^0.1.2"
   }
 }
