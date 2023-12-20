@@ -6,7 +6,7 @@
 #    ^ source.amr meta.structure.triple.amr punctuation.definition.triple.begin.amr
 #     ^ source.amr meta.structure.triple.amr variable.other.symbol.amr
 #      ^ source.amr meta.structure.triple.amr
-#       ^ source.amr meta.structure.triple.amr keyword.operator.slash.amr
+#       ^ source.amr meta.structure.triple.amr punctuation.separator.triple.amr
 #        ^ source.amr meta.structure.triple.amr
 #         ^^^^^^^^^^^^^ source.amr meta.structure.triple.amr variable.other.symbol.amr
 #                      ^^ source.amr meta.structure.triple.amr constant.numeric.alignment.amr
@@ -17,7 +17,7 @@
 #              ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.begin.amr
 #               ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
 #                ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
-#                 ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr keyword.operator.slash.amr
+#                 ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.separator.triple.amr
 #                  ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
 #                   ^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
 #                          ^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr constant.numeric.alignment.amr
@@ -28,7 +28,7 @@
 #                  ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.begin.amr
 #                   ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
 #                    ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
-#                     ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr keyword.operator.slash.amr
+#                     ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.separator.triple.amr
 #                      ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
 #                       ^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
 #                              ^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr constant.numeric.alignment.amr
@@ -45,7 +45,7 @@
 #                  ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.begin.amr
 #                   ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
 #                    ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
-#                     ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr keyword.operator.slash.amr
+#                     ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.separator.triple.amr
 #                      ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
 #                       ^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
 #                             ^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr constant.numeric.alignment.amr
@@ -56,7 +56,7 @@
 #                     ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.begin.amr
 #                      ^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
 #                        ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
-#                         ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr keyword.operator.slash.amr
+#                         ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.separator.triple.amr
 #                          ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
 #                           ^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
 #                                  ^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr constant.numeric.alignment.amr
@@ -67,7 +67,7 @@
 #                          ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.begin.amr
 #                           ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
 #                            ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
-#                             ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr keyword.operator.slash.amr
+#                             ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.separator.triple.amr
 #                              ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
 #                               ^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
 #                                   ^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr constant.numeric.alignment.amr
@@ -88,7 +88,7 @@
 #                   ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.begin.amr
 #                    ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
 #                     ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
-#                      ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr keyword.operator.slash.amr
+#                      ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.separator.triple.amr
 #                       ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
 #                        ^^^^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
 #                                  ^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr constant.numeric.alignment.amr

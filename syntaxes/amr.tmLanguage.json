@@ -98,7 +98,7 @@
       "match": "[^ \\t\\r\\n\\v\\f()\\/:~]+"
     },
     "slash": {
-      "name": "keyword.operator.slash.amr",
+      "name": "punctuation.separator.triple.amr",
       "match": "\\/"
     },
     "illegal": {
