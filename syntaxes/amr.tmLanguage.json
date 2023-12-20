@@ -1,42 +1,96 @@
 {
-  "name": "Abstract Meaning Representation (AMR)",
+  "name": "AMR",
   "scopeName": "source.amr",
   "patterns": [
     {
+      "include": "#comment"
+    },
+    {
+      "include": "#triple"
+    }
+  ],
+  "repository": {
+    "triple": {
+      "name": "meta.triple.amr",
+      "begin": "\\(",
+      "end": "\\)",
+      "patterns": [
+        {
+          "include": "#comment"
+        },
+        {
+          "include": "#symbol"
+        },
+        {
+          "include": "#alignment"
+        },
+        {
+          "include": "#slash"
+        },
+        {
+          "include": "#role"
+        },
+        {
+          "include": "#triple"
+        },
+        {
+          "include": "#illegal"
+        }
+      ]
+    },
+    "role": {
+      "name": "meta.role.amr",
+      "begin": ":[^ \\t\\r\\n\\v\\f()\\/:~]*",
+      "captures": {
+        "0": {
+          "name": "keyword.operator.role.amr"
+        }
+      },
+      "end": "(?=\\:|\\)|$)",
+      "patterns": [
+        {
+          "include": "#comment"
+        },
+        {
+          "include": "#string"
+        },
+        {
+          "include": "#symbol"
+        },
+        {
+          "include": "#alignment"
+        },
+        {
+          "include": "#triple"
+        },
+        {
+          "include": "#illegal"
+        }
+      ]
+    },
+    "comment": {
       "name": "comment.line.number-sign.amr",
       "match": "\\#.*$"
     },
-    {
+    "string": {
       "name": "string.quoted.double.amr",
       "match": "\"[^\"\\\\]*(?:\\\\.[^\"\\\\]*)*\""
     },
-    {
+    "alignment": {
       "name": "constant.numeric.alignment.amr",
       "match": "~(?:[a-z]\\.?)?[0-9]+(?:,[0-9]+)*"
     },
-    {
-      "name": "keyword.operator.role.amr",
-      "match": ":[^ \\t\\r\\n\\v\\f()\\/:~]*"
-    },
-    {
+    "symbol": {
       "name": "variable.other.symbol.amr",
       "match": "[^ \\t\\r\\n\\v\\f()\\/:~]+"
     },
-    {
-      "name": "punctuation.parenthesis.open.amr",
-      "match": "\\("
-    },
-    {
-      "name": "punctuation.parenthesis.close.amr",
-      "match": "\\)"
-    },
-    {
+    "slash": {
       "name": "keyword.operator.slash.amr",
       "match": "\\/"
     },
-    {
+    "illegal": {
       "name": "invalid.illegal.unexpected.amr",
       "match": "[^ \\t\\r\\n\\v\\f]"
     }
-  ]
+  }
 }
