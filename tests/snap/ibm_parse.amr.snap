@@ -3,104 +3,104 @@
 #    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.amr comment.line.number-sign.amr
 >    (r / reasonable-02~2
 #^^^^ source.amr
-#    ^ source.amr meta.triple.amr
-#     ^ source.amr meta.triple.amr variable.other.symbol.amr
-#      ^ source.amr meta.triple.amr
-#       ^ source.amr meta.triple.amr keyword.operator.slash.amr
-#        ^ source.amr meta.triple.amr
-#         ^^^^^^^^^^^^^ source.amr meta.triple.amr variable.other.symbol.amr
-#                      ^^ source.amr meta.triple.amr constant.numeric.alignment.amr
+#    ^ source.amr meta.structure.triple.amr punctuation.definition.triple.begin.amr
+#     ^ source.amr meta.structure.triple.amr variable.other.symbol.amr
+#      ^ source.amr meta.structure.triple.amr
+#       ^ source.amr meta.structure.triple.amr keyword.operator.slash.amr
+#        ^ source.amr meta.structure.triple.amr
+#         ^^^^^^^^^^^^^ source.amr meta.structure.triple.amr variable.other.symbol.amr
+#                      ^^ source.amr meta.structure.triple.amr constant.numeric.alignment.amr
 >        :ARG1 (c / call-01~6
-#^^^^^^^^ source.amr meta.triple.amr
-#        ^^^^^ source.amr meta.triple.amr meta.role.amr keyword.operator.role.amr
-#             ^ source.amr meta.triple.amr meta.role.amr
-#              ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr
-#               ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr variable.other.symbol.amr
-#                ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                 ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr keyword.operator.slash.amr
-#                  ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                   ^^^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr variable.other.symbol.amr
-#                          ^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr constant.numeric.alignment.amr
+#^^^^^^^^ source.amr meta.structure.triple.amr
+#        ^^^^^ source.amr meta.structure.triple.amr meta.role.amr keyword.operator.role.amr
+#             ^ source.amr meta.structure.triple.amr meta.role.amr
+#              ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.begin.amr
+#               ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
+#                ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#                 ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr keyword.operator.slash.amr
+#                  ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#                   ^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
+#                          ^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr constant.numeric.alignment.amr
 >            :ARG0 (s / someone~4)
-#^^^^^^^^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr
-#            ^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr keyword.operator.role.amr
-#                 ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr
-#                  ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                   ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr variable.other.symbol.amr
-#                    ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                     ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr keyword.operator.slash.amr
-#                      ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                       ^^^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr variable.other.symbol.amr
-#                              ^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr constant.numeric.alignment.amr
-#                                ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
+#^^^^^^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#            ^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr keyword.operator.role.amr
+#                 ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr
+#                  ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.begin.amr
+#                   ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
+#                    ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#                     ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr keyword.operator.slash.amr
+#                      ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#                       ^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
+#                              ^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr constant.numeric.alignment.amr
+#                                ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.end.amr
 >            :ARG1 s
-#^^^^^^^^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr
-#            ^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr keyword.operator.role.amr
-#                 ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr
-#                  ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr variable.other.symbol.amr
+#^^^^^^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#            ^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr keyword.operator.role.amr
+#                 ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr
+#                  ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr variable.other.symbol.amr
 >            :ARG2 (p / person~7
-#^^^^^^^^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr
-#            ^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr keyword.operator.role.amr
-#                 ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr
-#                  ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                   ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr variable.other.symbol.amr
-#                    ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                     ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr keyword.operator.slash.amr
-#                      ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                       ^^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr variable.other.symbol.amr
-#                             ^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr constant.numeric.alignment.amr
+#^^^^^^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#            ^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr keyword.operator.role.amr
+#                 ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr
+#                  ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.begin.amr
+#                   ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
+#                    ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#                     ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr keyword.operator.slash.amr
+#                      ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#                       ^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
+#                             ^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr constant.numeric.alignment.amr
 >                :mod (c2 / country~9
-#^^^^^^^^^^^^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                ^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr keyword.operator.role.amr
-#                    ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr
-#                     ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                      ^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr variable.other.symbol.amr
-#                        ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                         ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr keyword.operator.slash.amr
-#                          ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                           ^^^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr variable.other.symbol.amr
-#                                  ^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr constant.numeric.alignment.amr
+#^^^^^^^^^^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#                ^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr keyword.operator.role.amr
+#                    ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr
+#                     ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.begin.amr
+#                      ^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
+#                        ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#                         ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr keyword.operator.slash.amr
+#                          ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#                           ^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
+#                                  ^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr constant.numeric.alignment.amr
 >                    :name (n / name~9
-#^^^^^^^^^^^^^^^^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                    ^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr keyword.operator.role.amr
-#                         ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr
-#                          ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                           ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr variable.other.symbol.amr
-#                            ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                             ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr keyword.operator.slash.amr
-#                              ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                               ^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr variable.other.symbol.amr
-#                                   ^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr constant.numeric.alignment.amr
+#^^^^^^^^^^^^^^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#                    ^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr keyword.operator.role.amr
+#                         ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr
+#                          ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.begin.amr
+#                           ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
+#                            ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#                             ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr keyword.operator.slash.amr
+#                              ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#                               ^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
+#                                   ^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr constant.numeric.alignment.amr
 >                        :op1 "America"~10))))
-#^^^^^^^^^^^^^^^^^^^^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                        ^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr keyword.operator.role.amr
-#                            ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr
-#                             ^^^^^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr string.quoted.double.amr
-#                                      ^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr constant.numeric.alignment.amr
-#                                         ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                                          ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                                           ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                                            ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr
+#^^^^^^^^^^^^^^^^^^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#                        ^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr keyword.operator.role.amr
+#                            ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr
+#                             ^^^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr string.quoted.double.amr
+#                                      ^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr constant.numeric.alignment.amr
+#                                         ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.end.amr
+#                                          ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.end.amr
+#                                           ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.end.amr
+#                                            ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.end.amr
 >        :condition (b / be-from-91~15
-#^^^^^^^^ source.amr meta.triple.amr
-#        ^^^^^^^^^^ source.amr meta.triple.amr meta.role.amr keyword.operator.role.amr
-#                  ^ source.amr meta.triple.amr meta.role.amr
-#                   ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                    ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr variable.other.symbol.amr
-#                     ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                      ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr keyword.operator.slash.amr
-#                       ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                        ^^^^^^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr variable.other.symbol.amr
-#                                  ^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr constant.numeric.alignment.amr
+#^^^^^^^^ source.amr meta.structure.triple.amr
+#        ^^^^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr keyword.operator.role.amr
+#                  ^ source.amr meta.structure.triple.amr meta.role.amr
+#                   ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.begin.amr
+#                    ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
+#                     ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#                      ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr keyword.operator.slash.amr
+#                       ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#                        ^^^^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr variable.other.symbol.amr
+#                                  ^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr constant.numeric.alignment.amr
 >            :ARG1 s
-#^^^^^^^^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr
-#            ^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr keyword.operator.role.amr
-#                 ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr
-#                  ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr variable.other.symbol.amr
+#^^^^^^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#            ^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr keyword.operator.role.amr
+#                 ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr
+#                  ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr variable.other.symbol.amr
 >            :ARG2 c2))
-#^^^^^^^^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr
-#            ^^^^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr keyword.operator.role.amr
-#                 ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr
-#                  ^^ source.amr meta.triple.amr meta.role.amr meta.triple.amr meta.role.amr variable.other.symbol.amr
-#                    ^ source.amr meta.triple.amr meta.role.amr meta.triple.amr
-#                     ^ source.amr meta.triple.amr
+#^^^^^^^^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr
+#            ^^^^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr keyword.operator.role.amr
+#                 ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr
+#                  ^^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr meta.role.amr variable.other.symbol.amr
+#                    ^ source.amr meta.structure.triple.amr meta.role.amr meta.structure.triple.amr punctuation.definition.triple.end.amr
+#                     ^ source.amr meta.structure.triple.amr punctuation.definition.triple.end.amr

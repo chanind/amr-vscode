@@ -21,7 +21,8 @@
           "amr"
         ],
         "extensions": [
-          ".amr"
+          ".amr",
+          ".amr.txt"
         ],
         "configuration": "./language-configuration.json"
       }

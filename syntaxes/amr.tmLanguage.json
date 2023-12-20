@@ -7,13 +7,26 @@
     },
     {
       "include": "#triple"
+    },
+    {
+      "include": "#illegal"
     }
   ],
   "repository": {
     "triple": {
-      "name": "meta.triple.amr",
+      "name": "meta.structure.triple.amr",
       "begin": "\\(",
+      "beginCaptures": {
+        "0": {
+          "name": "punctuation.definition.triple.begin.amr"
+        }
+      },
       "end": "\\)",
+      "endCaptures": {
+        "0": {
+          "name": "punctuation.definition.triple.end.amr"
+        }
+      },
       "patterns": [
         {
           "include": "#comment"
