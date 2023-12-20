@@ -3,6 +3,19 @@
   "displayName": "AMR",
   "description": "Language support of Abstract Meaning Representation (AMR)",
   "version": "1.0.0",
+  "publisher": "chanind",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chanind/amr-vscode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chanind/amr-vscode/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "amr",
+    "abstract meaning representation"
+  ],
   "scripts": {
     "test": "vscode-tmgrammar-snap tests/snap/**/*.amr"
   },
@@ -36,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@vscode/vsce": "^2.22.0",
     "vscode-tmgrammar-test": "^0.1.2"
   }
 }
