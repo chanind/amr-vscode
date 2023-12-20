@@ -2,7 +2,7 @@
   "name": "amr",
   "displayName": "AMR",
   "description": "Language support of Abstract Meaning Representation (AMR)",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "test": "vscode-tmgrammar-snap tests/snap/**/*.amr"
   },
